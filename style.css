@@ -116,6 +116,7 @@ select:hover,
 .books-list {
     display: flex;
     flex-direction: column-reverse;
+    gap: 16px;
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
