@@ -97,6 +97,7 @@ select:hover,
 
 
 .info-wrapper {
+    display: flex;
     text-decoration: underline;
     /* 📍 Свойство flexbox для расположения 2-х списков в ряд */
 }
@@ -131,6 +132,7 @@ select:hover,
 .skills-block {
     display: flex;
     column-gap: normal;
+    flex-direction: column-reverse;
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
 }
 
