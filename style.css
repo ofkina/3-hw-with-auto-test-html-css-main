@@ -5,7 +5,6 @@
 }
 
 .container {
-    outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
     max-width: 1140px;
@@ -115,10 +114,8 @@ select:hover,
 
 .frameworks-list,
 .books-list {
-    width: 230px;
-    height: 50px;
-    flex-grow: 1;
-    gap: 16px;
+    display: flex;
+    flex-direction: column-reverse;
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
 
